@@ -15,21 +15,12 @@
     "chalk": "^4.1.0",
     "moment": "^2.27.0",
     "request": "^2.88.2",
-    "discord.js-commando": "^0.10.0",
     "common-tags": "^1.8.0",
-    "jimp": "^0.16.1",
     "fs": "^0.0.2",
-    "opusscript": "^0.0.7",
     "quick.db": "^7.1.1",
     "moment-duration-format": "^2.3.2",
-    "useful-tools": "^0.2.6",
     "parse-ms": "^2.1.0",
-    "cleverbot.io": "^1.0.4",
-    "mongoose": "^5.10.5",
-    "request-promise-native": "^1.0.9",
-    "ytdl-core": "^3.2.2",
-    "simple-youtube-api": "^5.2.1",
-    "ytdl-core-discord": "^1.2.0"
+    "request-promise-native": "^1.0.9"
   },
   "engines": {
     "node": "12.x"
