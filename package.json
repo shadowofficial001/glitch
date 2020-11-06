@@ -15,7 +15,12 @@
     "moment": "^2.29.1",
     "quick.db": "^7.1.1",
     "sqlite3": "^5.0.0",
-    "better-sqlite3": "^7.0.9"
+    "better-sqlite3": "^7.0.9",
+    "auto-bind": "^4.0.0",
+    "function-bind": "^1.1.1",
+    "bind": "^0.1.7",
+    "sqlite": "^4.0.14",
+    "expo-sqlite": "^8.4.0"
   },
   "engines": {
     "node": "12.x"
