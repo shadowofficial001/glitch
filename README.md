@@ -1,3 +1,6 @@
-# Get Started!
+Made by SKYBOW#8053
+0_0#6666
 
-Add files and start typing 🎉
+Mehmet#8203----------
+Klirvek Bot
+(Old) & Nether(New)--------------------------------------------------------
