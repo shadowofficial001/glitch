@@ -10,17 +10,11 @@
     "start": "node shard.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "discord.js": "^12.3.1",
+    "discord.js": "^12.4.0",
     "chalk": "^4.1.0",
-    "moment": "^2.27.0",
-    "request": "^2.88.2",
-    "common-tags": "^1.8.0",
-    "fs": "^0.0.2",
-    "quick.db": "^7.1.1",
-    "moment-duration-format": "^2.3.2",
-    "parse-ms": "^2.1.0",
-    "request-promise-native": "^1.0.9"
+    "moment": "^2.29.1",
+    "express": "^4.17.1",
+    "os": "^0.1.1"
   },
   "engines": {
     "node": "12.x"
