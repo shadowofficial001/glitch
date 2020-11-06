@@ -10,7 +10,12 @@
     "start": "node shard.js"
   },
   "dependencies": {
-
+    "discord.js": "^12.4.0",
+    "chalk": "^4.1.0",
+    "moment": "^2.29.1",
+    "os": "^0.1.1",
+    "moment-duration-format": "^2.3.2",
+    "better-sqlite3": "^7.1.0"
   },
   "engines": {
     "node": "12.x"
