@@ -3,13 +3,13 @@ const Discord = require("discord.js");
 exports.run = async (client, message, args) => {
   if (!message.member.hasPermission("MANAGE_MESSAGES"))
     return message.channel.send(
-      "You do not have the permission that only **Hades** has."
+      "Yetkin yok."
     );
   if (message.channel.type !== "text") return;
   const limit = args[0] ? args[0] : 0;
   if (!limit) {
     var embed = new Discord.sendEmbed()
-      .setDescription(`True usage is: \`cooldown [0/10]\``)
+      .setDescription(`Yanlış kullanım`)
       .setColor("RED")
       .setTimestamp();
     message.channel.send({ embed });

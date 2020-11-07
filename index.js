@@ -9,7 +9,7 @@ require("./util/eventLoader")(client);
 
 var prefix = ayarlar.prefix;
 
-var darkteamjs = "darkteam.js kod paylaşım sunucusu";
+var skybow = "Nether v12, pythonic";
 
 const log = message => {
   console.log(`[${moment().format("YYYY-MM-DD HH:mm:ss")}] ${message}`);
