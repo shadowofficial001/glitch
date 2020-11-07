@@ -10,21 +10,21 @@ if (message.author.bot === true) {
   return;
 }
 
-if (!message.member.hasPermission("ADMINISTRATOR")) return message.reply(`Sorry, only "ADMINISTRATOR" authorized users can use this command.`);
+if (!message.member.hasPermission("ADMINISTRATOR")) return message.reply(`Yetkin yok`);
   let prefix = await require('quick.db').fetch(`prefix_${message.guild.id}`) || ayarlar.prefix
   let pythonic = args.slice(0).join(' ');
-  if(pythonic < 1) return message.channel.send(`you have to pick the prefix that you want to use specially for this server (\`${prefix}prefix <prefix>\`) if you are going to reset the prefix: \`${prefix}prefix reset\` `)
+  if(pythonic < 1) return message.channel.send(`yanlış kullanım `)
 
-  if(pythonic === ayarlar.prefix) return message.channel.send(`sorry but you can't set your bot prefix. if you want to reset \`${prefix}prefix reset\` `)
+  if(pythonic === ayarlar.prefix) return message.channel.send(`yanlış kullanım`)
   
   if (pythonic === "reset") {
    db.delete(`prefix_${message.guild.id}`)
-    message.channel.send(`Prefix succesfully reset! New prefix: \`&\` if you forget the prefix, type /helpprefix`)
+    message.channel.send(`Prefixiniz resetlendi`)
     return;
   }
   
   var yeniprefix = db.set(`prefix_${message.guild.id}`, pythonic)
-    message.channel.send(`Prefix changed! New prefix: \`${prrefix}\``) // silmiomda 
+    message.channel.send(`Prefixiniz değişti, yeni prefix: \`${prrefix}\``) // silmiomda 
     
 }
 

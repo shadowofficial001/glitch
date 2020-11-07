@@ -47,7 +47,7 @@ exports.conf = {
 };
  
 exports.help = {
-  name: "slowmode",
+  name: "yavaşmod",
   description: "Sohbete yazma sınır (süre) ekler.",
-  usage: "slowmode [1/10]"
+  usage: "yavaşmod [1/10]"
 };

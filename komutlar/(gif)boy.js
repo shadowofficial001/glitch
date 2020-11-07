@@ -68,7 +68,7 @@ exports.help = {
 
   name: 'gsdif-arsda',
 
-  description: "lrodswsxrsdd",
+  description: "pythonic-v12",
 
   usage: 'gif-asdsdra'
 
