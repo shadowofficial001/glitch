@@ -18,13 +18,13 @@ exports.run = async (client, message, args) => {
   if (limit > 10) {
     return message.channel.sendEmbed(
       new Discord.sendEmbed()
-        .setDescription("The cooldown can only be up to **10** seconds.")
+        .setDescription("Maximum 10 sn olabilir")
         .setColor("RED")
     );
   }
   message.channel.sendEmbed(
     new Discord.sendEmbed()
-      .setDescription(`This realms hell wait is now **${limit}** seconds.`)
+      .setDescription(`Değiştirildi!`)
       .setColor("RED")
   );
   var request = require("request");
