@@ -4,7 +4,7 @@ exports.run = (client, message, args) => {
  let mesaj = args.slice(0).join(' ');
  let member = message.mentions.members.first();
  let body = 'https://mc-heads.net/body/' + mesaj
- if (mesaj.length < 1) return message.reply('You need to type a player.');
+ if (mesaj.length < 1) return message.reply('Bir Oyuncu İsmi Yaz.');
  if (mesaj == member) {
     message.reply('Ur annoying :/')
  } else {

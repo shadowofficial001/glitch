@@ -13,9 +13,9 @@ exports.run = (client, message, args) => {
 
 const exampleEmbed = new Discord.MessageEmbed()
 	.setColor('#27167A')
-    .setTitle("Go to Nether's website")
-    .setURL("http://netherbot.tk/")
-	.setAuthor('Nether', 'https://cdn.discordapp.com/attachments/736209990871941272/755062661334564904/rsz_1lol1.png')
+    .setTitle("Sunucumuz")
+    .setURL("https://discord.gg/GQHWTvBVUT")
+	.setAuthor('Shadow Bot', 'https://cdn.discordapp.com/attachments/736209990871941272/755062661334564904/rsz_1lol1.png')
 	.setDescription('Here are some useful commands that lead up to more commands!')
 	.addFields(
 		{ name: 'Muzik komutları ', value: `Yakında...`, inline: true },
@@ -28,7 +28,7 @@ const exampleEmbed = new Discord.MessageEmbed()
 	.addField('Gif komutları', `${prefix}gifs`, true)
 	.setImage('https://i.imgur.com/tisiWVo.png')
 	.setTimestamp()
-	.setFooter('Nether 2020', 'https://cdn.discordapp.com/attachments/736209990871941272/755062661334564904/rsz_1lol1.png');
+	.setFooter('Shadow 2021', 'https://cdn.discordapp.com/attachments/736209990871941272/755062661334564904/rsz_1lol1.png');
 
 message.channel.send(exampleEmbed);
 };
