@@ -17,11 +17,11 @@ module.exports = client => {
   );
   client.user.setStatus("dnd");
   var oyun = [
-       "⚠️ Nether | V12!",
-       "⚠️ &help for help",
-       "⚠️ NETHER NEW VERSION!",
-       "⚠️ Thanks for they!",
-       "⚠️ Nether Verified"
+       "⚠️ Resetlendi",
+       "⚠️ Bot Güncelleniyor",
+       "⚠️ Shadow Bot #50k",
+       "⚠️ Bizi Seçtiğiniz için teşekkürler!",
+       "⚠️ Shadow Bot Onaya Doğru"
   ];
 
   setInterval(function() {
