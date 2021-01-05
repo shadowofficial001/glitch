@@ -17,7 +17,7 @@ module.exports = client => {
   );
   client.user.setStatus("dnd");
   var oyun = [
-       "⚠️ Resetlendi",
+       "⚠️ S!sunshine Shadow yazın",
        "⚠️ Bot Güncelleniyor",
        "⚠️ Shadow Bot #50k",
        "⚠️ Bizi Seçtiğiniz için teşekkürler!",

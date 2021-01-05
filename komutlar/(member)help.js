@@ -18,11 +18,11 @@ const exampleEmbed = new Discord.MessageEmbed()
 	.setAuthor('Nether', 'https://cdn.discordapp.com/attachments/736209990871941272/755062661334564904/rsz_1lol1.png')
 	.setDescription('Here are some useful commands that lead up to more commands!')
 	.addFields(
-		{ name: 'Muzik komutları <:radios:753901880278515782>', value: `Yakında...`, inline: true },
-		{ name: 'Yazı komutları <:4925_blurpednewsletter:753904910814412819>', value: `${prefix}texts`, inline: true },
-		{ name: 'Logo komutları <:VectorBox:736227127665360996>', value: `${prefix}logos`, inline: true },
-		{ name: 'Mod komutları <:botcommands:754445971127140475>', value: `${prefix}moderation`, inline: true },
-    { name: 'Bot ayarları <:moderation:754452673692041248>', value: `${prefix}settings`, inline: true },
+		{ name: 'Muzik komutları ', value: `Yakında...`, inline: true },
+		{ name: 'Yazı komutları ', value: `${prefix}texts`, inline: true },
+		{ name: 'Logo komutları', value: `${prefix}logos`, inline: true },
+		{ name: 'Mod komutları ', value: `${prefix}moderation`, inline: true },
+    { name: 'Bot ayarları ', value: `${prefix}settings`, inline: true },
 
 	)
 	.addField('Gif komutları', `${prefix}gifs`, true)
